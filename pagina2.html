@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+    <title>Transdoro</title>
+</head>
+<body>
+    <header class="header"><a href="index.html"><img src="img/logo.png" alt="logo"></a>
+        <nav class="menu">
+            <ul class="principal">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pagina2.html">Cotação</a></li>
+                <li><a href="pagina3_contato.html">Contato</a></li>
+                <li><a href="Pagina4_QuemSomos.html">Quem Somos</a></li>
+            </ul>
+        </nav>
+    </header>
+        
+        <h1>Calcule seu frete simultaneamente</h1>
+    
+    <section class="flex">
+
+        <p class="container">MODO DE PREENCHIMENTO <br>
+            Digite as medidas em centímetros e não utilize pontos ou vírgula. <br>
+            Ex.: Se quiser digitar 1.32mts digite apenas 132 <br>
+            
+            A dimensão máxima por item é de 300cm</p>
+        
+        <div>
+            <input type="text" name="cep" id="cep"
+            placeholder="CEP de Origem">
+        </div>
+        <div>
+            <input type="nome" name="cep" id="cep"
+            placeholder="CEP de Destino">
+        </div>
+        <div>
+            <input class="peso" type="text" placeholder="Peso (Kg)">
+            
+        </div>
+        <div>
+            <p>Altura (cm)</p>
+            <input class="altura" type="text">
+        </div>
+        <div>
+            <p>Largura (cm)</p>
+            <input class="largura" type="text">
+        </div>
+        <div>
+            <p>Comprimento (cm)</p>
+            <input class="comprimento" type="text">
+        </div>
+        <div>
+            <p>Quantidade</p>
+            <input class="quantidade" type="text">
+        </div>
+        <div>
+            <p>Valor da Carga</p>
+            <input class="valor" type="text">
+        </div>
+        <div>
+            <p id="currency">Frete</p>
+            <button class="btn" onclick="clicar()">CALCULAR</button><br>
+        </div>
+    
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <footer>
+		<div class="main-content">
+			<div class="left box">
+				<h2> Sobre nós</h2>
+				<div class="content">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet iste facilis harum eos vel incidunt distinctio corrupti iure? Rem</p>
+				
+					<div class="social">
+						<a href="#"><span class="fab fa-facebook-f"></span></a>
+						<a href="#"><span class="fab fa-twitter"></span></a>
+						<a href="#"><span class="fab fa-instagram"></span></a>
+						<a href="#"><span class="fab fa-youtube"></span></a>
+					</div>
+				</div>
+			</div><!--left box-->
+			<div class="center box">
+				<h2>Endereço</h2>
+				<div class="content">
+					<div class="place">
+						<span class="fas fa-map-marker"></span>
+						<span class="text">Rua.Cecilia Roizen, Guarulhos-SP</span>
+					</div>
+
+					<div class="phone">
+						<span class="fas fas fa-phone-alt"></span>
+						<span class="text">+55 11 9999-9999</span>
+					</div>
+
+					<div class="email">
+						<span class="fas fa-envelope"></span>
+						<span class="text">comercial.sp@transcorsini.com.br</span>
+					</div>
+				</div>
+			</div>
+			<div class="right box">
+				<h2>Contato</h2>
+				<div class="content">
+					<form action="#">
+						<div class="email">
+							<div class="text">Email *</div>
+							<input type="email" required>
+						</div>
+						<div class="msg">
+							<div class="text">Mensagem *</div>
+							<textarea rows="2" cols="25" required></textarea>
+						</div>
+						<div class="btn">
+							<button type="submit">Enviar</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div><!--main-content-->
+		<div class="bottom">
+			<div class="center">
+				<span class="credit">Criado por <a href="#">Nathanael</a></span>
+				<span class="far fa-copyright">2022 Todos os diteitos reservados</span>
+			</div>
+		</div>
+	</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
